@@ -1,0 +1,50 @@
+< type="text/css">@media only screen and (max-width: 480px) {
+	#templateColumns {
+		width: 100% !important;
+	}
+	.templateColumnContainer {
+		display: block !important;
+		width: 100% !important;
+	}
+	.columnImage {
+		height: auto !important;
+		max-width: 480px !important;
+		width: 100% !important;
+	}
+	.leftColumnContent {
+		font-size: 16px !important;
+		line-height: 125% !important;
+	}
+	.rightColumnContent {
+		font-size: 16px !important;
+		line-height: 125% !important;
+	}
+}
+
+
+td {
+	/* css-3 */
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	<td style="width:100px;">some data</td>
+}
+<style type="text/css">@media only screen and (max-width: 480px) {
+	.emailButton {
+		max-width: 600px !important;
+		width: 100% !important;
+	}
+	.emailButton a {
+		display: block !important;
+		font-size: 18px !important;
+	}
+}
+</style>
